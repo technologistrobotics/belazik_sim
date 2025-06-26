@@ -1,0 +1,312 @@
+[0.014s] Invoking command in '/home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kaban/project_robot_ws_sim/project_robot_ws/sim -DCMAKE_INSTALL_PREFIX=/home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim
+[0.168s] -- The C compiler identification is GNU 13.3.0
+[0.269s] -- The CXX compiler identification is GNU 13.3.0
+[0.295s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.411s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.412s] -- Detecting C compile features - done
+[0.425s] -- Detecting CXX compiler ABI info
+[0.530s] -- Detecting CXX compiler ABI info - done
+[0.537s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.538s] -- Detecting CXX compile features
+[0.538s] -- Detecting CXX compile features - done
+[0.549s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.719s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.844s] -- Found control_msgs: 5.4.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[0.895s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.907s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.925s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.092s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.133s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.136s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.227s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.248s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.336s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.347s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.350s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.436s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.442s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.442s] -- Configured cppcheck include dirs: 
+[1.442s] -- Configured cppcheck exclude dirs and/or files: 
+[1.447s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.447s] -- Configured cpplint exclude dirs and/or files: 
+[1.449s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.449s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.451s] -- Added test 'lint_cmake' to check CMake code style
+[1.452s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.458s] -- Added test 'uncrustify' to check C / C++ code style
+[1.458s] -- Configured uncrustify additional arguments: 
+[1.460s] -- Added test 'xmllint' to check XML markup files
+[1.462s] -- Configuring done (1.4s)
+[1.469s] -- Generating done (0.0s)
+[1.472s] -- Build files have been written to: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim
+[1.482s] Invoked command in '/home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kaban/project_robot_ws_sim/project_robot_ws/sim -DCMAKE_INSTALL_PREFIX=/home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim
+[1.483s] Invoking command in '/home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim -- -j24 -l24
+[1.535s] [ 50%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[4.142s] [100%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[4.285s] [100%] Built target example_tricycle_drive
+[4.296s] Invoked command in '/home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim -- -j24 -l24
+[4.307s] Invoking command in '/home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim
+[4.315s] -- Install configuration: ""
+[4.315s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch
+[4.315s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch/bicycle_drive.launch .py
+[4.315s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch/p.py
+[4.315s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch/sim.launch.py
+[4.316s] -- Up-to-date: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch
+[4.316s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch/__pycache__
+[4.316s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch/__pycache__/online_async_launch.cpython-310.pyc
+[4.316s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch/base_link_launch.py
+[4.316s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch/online_async_launch.py
+[4.316s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//launch/navigation_launch.py
+[4.316s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config
+[4.316s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/nav2_params_rpp.yaml
+[4.317s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/mapper_params_online_async.yaml
+[4.317s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/bicycle_drive_controller.yaml
+[4.317s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/obstacles.world
+[4.317s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/tricycle_drive_controller.yaml
+[4.317s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/gz_bridge.yaml
+[4.317s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/twist_mux.yaml
+[4.317s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/nav2_params_vp.yaml
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/config.rviz
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/slam_test.world
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/nav2_params.yaml
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//config/cave.sdf
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/full_robot.xacro.urdf
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf
+[4.318s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/cmake_args.last
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/colcon_command_prefix_build.sh.env
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/colcon_build.rc
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeCache.txt
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/colcon_command_prefix_build.sh
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/.cmake
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/.cmake/api
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/.cmake/api/v1
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/.cmake/api/v1/query
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/.cmake/api/v1/query/client-colcon-cmake
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/.cmake/api/v1/query/client-colcon-cmake/codemodel-v2
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/CMakeTmp
+[4.319s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/CMakeOutput.log
+[4.320s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/cmake.check_cache
+[4.320s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1
+[4.320s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin
+[4.320s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+[4.321s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdC
+[4.321s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdC/a.out
+[4.321s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+[4.322s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdC/tmp
+[4.322s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeSystem.cmake
+[4.322s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+[4.322s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdCXX
+[4.322s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdCXX/a.out
+[4.322s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+[4.322s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdCXX/tmp
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/.built_by
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/build/COLCON_IGNORE
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/config
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/config/joint_names_robot_urdf.yaml
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/CMakeLists.txt
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/local_setup.ps1
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/.colcon_install_layout
+[4.323s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/_local_setup_util_sh.py
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/setup.bash
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share/robot_urdf
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.dsv
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.ps1
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.zsh
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.bash
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.sh
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share/colcon-core
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share/colcon-core/packages
+[4.324s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/share/colcon-core/packages/robot_urdf
+[4.325s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/robot_urdf/.catkin
+[4.325s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/COLCON_IGNORE
+[4.325s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/local_setup.bash
+[4.325s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/setup.ps1
+[4.325s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/local_setup.sh
+[4.326s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/setup.zsh
+[4.326s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/_local_setup_util_ps1.py
+[4.326s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/local_setup.zsh
+[4.326s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/install/setup.sh
+[4.326s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/launch
+[4.326s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/launch/gazebo.launch
+[4.326s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/launch/display.launch
+[4.326s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/export.log
+[4.327s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/urdf
+[4.327s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/urdf/robot_urdf.csv
+[4.327s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/urdf/robot_urdf.urdf
+[4.327s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log
+[4.327s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/COLCON_IGNORE
+[4.327s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/build_2025-05-05_10-50-29
+[4.327s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf
+[4.327s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/stdout_stderr.log
+[4.327s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/stdout.log
+[4.328s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/streams.log
+[4.328s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/command.log
+[4.328s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/stderr.log
+[4.328s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/build_2025-05-05_10-50-29/logger_all.log
+[4.328s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/log/build_2025-05-05_10-50-29/events.log
+[4.328s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/textures
+[4.328s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes
+[4.328s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes/link_lidar.STL
+[4.330s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes/link_laser.STL
+[4.333s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes/link_depth_camera.STL
+[4.352s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes/link_wheel_rear_right.STL
+[4.356s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes/link_steering_pinion.STL
+[4.356s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes/link_wheel_rear_left.STL
+[4.361s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes/link_steering_rack.STL
+[4.361s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes/base_link.STL
+[4.368s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/meshes/link_steering_rods.STL
+[4.369s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/robot_urdf/package.xml
+[4.369s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/lidar.xacro
+[4.369s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/test_tricycle_drive.xacro.urdf
+[4.369s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/inertial_macros.xacro
+[4.369s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes
+[4.369s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes/link_lidar.STL
+[4.370s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes/link_laser.STL
+[4.373s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes/link_depth_camera.STL
+[4.391s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes/link_wheel_rear_right.STL
+[4.395s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes/link_steering_pinion.STL
+[4.396s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes/link_wheel_rear_left.STL
+[4.400s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes/link_steering_rack.STL
+[4.413s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes/base_link.STL
+[4.420s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//urdf/meshes/link_steering_rods.STL
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//worlds
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim//worlds/empty.world
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/full_robot.xacro.urdf
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/cmake_args.last
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/colcon_command_prefix_build.sh.env
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/colcon_build.rc
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeCache.txt
+[4.421s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/colcon_command_prefix_build.sh
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/.cmake
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/.cmake/api
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/.cmake/api/v1
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/.cmake/api/v1/query
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/.cmake/api/v1/query/client-colcon-cmake
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/.cmake/api/v1/query/client-colcon-cmake/codemodel-v2
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/CMakeTmp
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/CMakeOutput.log
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/cmake.check_cache
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdC
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdC/a.out
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdC/tmp
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeSystem.cmake
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdCXX
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdCXX/a.out
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CompilerIdCXX/tmp
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/robot_urdf/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/.built_by
+[4.422s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/build/COLCON_IGNORE
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/config
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/config/joint_names_robot_urdf.yaml
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/CMakeLists.txt
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/local_setup.ps1
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/.colcon_install_layout
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/_local_setup_util_sh.py
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/setup.bash
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share/robot_urdf
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.dsv
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.ps1
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.zsh
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.bash
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share/robot_urdf/package.sh
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share/colcon-core
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share/colcon-core/packages
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/share/colcon-core/packages/robot_urdf
+[4.423s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/robot_urdf/.catkin
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/COLCON_IGNORE
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/local_setup.bash
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/setup.ps1
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/local_setup.sh
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/setup.zsh
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/_local_setup_util_ps1.py
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/local_setup.zsh
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/install/setup.sh
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/launch
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/launch/gazebo.launch
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/launch/display.launch
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/export.log
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/urdf
+[4.424s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/urdf/robot_urdf.csv
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/urdf/robot_urdf.urdf
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/COLCON_IGNORE
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/build_2025-05-05_10-50-29
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/stdout_stderr.log
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/stdout.log
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/streams.log
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/command.log
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/build_2025-05-05_10-50-29/robot_urdf/stderr.log
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/build_2025-05-05_10-50-29/logger_all.log
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/log/build_2025-05-05_10-50-29/events.log
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/textures
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes
+[4.425s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes/link_lidar.STL
+[4.426s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes/link_laser.STL
+[4.427s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes/link_depth_camera.STL
+[4.437s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes/link_wheel_rear_right.STL
+[4.439s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes/link_steering_pinion.STL
+[4.440s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes/link_wheel_rear_left.STL
+[4.442s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes/link_steering_rack.STL
+[4.442s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes/base_link.STL
+[4.446s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/meshes/link_steering_rods.STL
+[4.446s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/robot_urdf/package.xml
+[4.446s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/lidar.xacro
+[4.446s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/test_tricycle_drive.xacro.urdf
+[4.446s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/inertial_macros.xacro
+[4.446s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes
+[4.446s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes/link_lidar.STL
+[4.447s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes/link_laser.STL
+[4.448s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes/link_depth_camera.STL
+[4.458s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes/link_wheel_rear_right.STL
+[4.460s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes/link_steering_pinion.STL
+[4.460s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes/link_wheel_rear_left.STL
+[4.463s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes/link_steering_rack.STL
+[4.463s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes/base_link.STL
+[4.466s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/urdf/meshes/link_steering_rods.STL
+[4.467s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/lib/robot_sim/example_tricycle_drive
+[4.467s] -- Set non-toolchain portion of runtime path of "/home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/lib/robot_sim/example_tricycle_drive" to ""
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/environment/sim.dsv
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/environment/sim.sh
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/ament_index/resource_index/package_run_dependencies/robot_sim
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/ament_index/resource_index/parent_prefix_path/robot_sim
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/environment/ament_prefix_path.sh
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/environment/ament_prefix_path.dsv
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/environment/path.sh
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/environment/path.dsv
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/local_setup.bash
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/local_setup.sh
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/local_setup.zsh
+[4.468s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/local_setup.dsv
+[4.469s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/package.dsv
+[4.469s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/ament_index/resource_index/packages/robot_sim
+[4.469s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/cmake/robot_simConfig.cmake
+[4.469s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/cmake/robot_simConfig-version.cmake
+[4.469s] -- Installing: /home/kaban/project_robot_ws_sim/project_robot_ws/sim/install/robot_sim/share/robot_sim/package.xml
+[4.472s] Invoked command in '/home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kaban/project_robot_ws_sim/project_robot_ws/sim/build/robot_sim
