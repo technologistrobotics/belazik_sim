@@ -35,7 +35,7 @@ def generate_launch_description():
 
     #gazebo begin
 
-    gazebo_env = SetEnvironmentVariable("GAZEBO_MODEL_PATH", os.path.join(get_package_prefix(package_name), "share"))
+    
 
 
     default_world = os.path.join(
@@ -79,7 +79,7 @@ def generate_launch_description():
 
     xacro_file = os.path.join(urdf_path,
                               'urdf',
-                              'test_tricycle_drive.xacro.urdf')
+                              'belazik_drive.xacro.urdf')
     
 
     doc = xacro.parse(open(xacro_file))
@@ -152,7 +152,7 @@ def generate_launch_description():
                 on_exit=[load_controller],  #the same with contoller 
             )
         ),
-        gazebo_env,
+      
         gazebo,
         twist_mux,
         rviz,
